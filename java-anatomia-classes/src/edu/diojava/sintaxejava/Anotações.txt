@@ -1,0 +1,58 @@
+    Arquivo "AnoFabricacao"
+    Variável "anoFabricacao"
+    Final variável "ANOFABRICACAO"
+
+    Recomendações para criação de variáveis:
+        Conter apenas letras, _(underline), $ ou os números de 0 a 9
+        Deve iniciar com letra, _ ou $
+        Deve iniciar com letra minúscula
+        Não pode conter espaços
+        Não pode usar palavras-chave da linguagem
+        O nome deve ser único dentro de um escopo
+
+    Declarações inválidas:
+        int numero&um = 1;
+        int 1numero = 1;
+        int numero um = 1;
+        int long = 1;
+
+    Declarações válidas:
+        int numero$um = 1;
+        int numero1 = 1;
+        int numeroum = 1;
+        int longo = 1;
+
+
+    Recomendações de nomenclatura de variáveis:
+        Uma variável deve ser clara, sem abreviações ou definção sem sentido
+        Uma variável é sempre no singular, exceto quando se referir a um array ou coleção
+        Defina um idioma único para suas variáveis. Se você for declarar variáveis em inglês, defina todas em inglês
+
+    Não recomendado:
+        double SalMedio = 1500.23;
+        String emails = "aluno@escola.com";
+        String myName = "JOSEPH";
+
+    Recomendado:
+        double salarioMedio = 1500.23;
+        String email = "aluno@escola.com";
+        String[] emails = {"aluno@escola.com", "professor@escola.com"};
+        String meuNome = "JOSEPH";
+
+    Nomenclatura pacote:
+    edu.diojava.sintaxejava
+
+    edu = tema educativo
+    diojava = nome do projeto
+    sintaxejava = pacote dentro do projeto
+
+    Para criar pacotes no VSCode criar cada nível do pacote em uma pasta
+
+    Métodos
+    Métodos deverão ser nomeados como verbos no infinitivo, com a primeira letra minúscula e em cada palavra seguinte letra maiúscula
+    Ex:
+        somar(int n1, int n2){}
+        abrirConexao(){}
+        concluirProcessamento(){}
+        findById(int id){}
+

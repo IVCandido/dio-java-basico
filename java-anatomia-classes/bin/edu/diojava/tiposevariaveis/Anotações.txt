@@ -1,0 +1,16 @@
+Tipos de dados
+    Tipo        Memória     Valor Mínimo                Valor Máximo
+    byte        1 byte      -128                        127
+    short       2 bytes     -32.768                     32767
+    int         4 bytes     -2.147.483.648              2.147.843.647
+    long        8 bytes     -9.223.372.036.854.775.808  9.223.372.036.854.775.807
+    float       4 bytes     -3,4028E+38                 3,042E+38
+    double      8 bytes     -1,7976E+308                1,7976E+308
+    char        1 byte      -                           -
+    String      1 byte (cada)-                          -
+    boolean     1 bit
+
+Estrutura padrão para se declarar uma variável é:
+    <Tipo> <nomeVariavel> <atribuicaodeValorOpcional>
+
+Constantes por convenção tem nome em CAIXA ALTA

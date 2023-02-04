@@ -8,6 +8,8 @@ public class MinhaClasse {
         //keyword final impede mudança no valor da variável
         final String BR = "Brasil";
 
+        System.out.println(BR);
+
         String primeiroNome = "Ivis";
         String segundoNome = "Vinícius";
 

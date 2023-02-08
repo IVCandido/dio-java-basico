@@ -1,0 +1,40 @@
+Operadores são símbolos especiais que tem um significado próprio para a linguagem e estão associados a determinadas operações.
+
+Variáveis do tipo String pedem aspas duplas na declaração.
+String nome = "Ivis Vinícius"
+
+Variáveis do tipo char pedem aspas simples na declaração.
+char sexo = 'M';
+
+Operador de adição (+) pode ser usado para concatenar textos.
+String nome = "Ivis" + " " + "Vinícius";
+System.out.println(nome); //Ivis Vinícius
+
+Ao concatenar números e strings, todos os números antes de uma string serão somados, e os após serão mostrados como texto.
+
+concatenacao = 1+1+1+"1"; //31
+
+concatenacao = 1+"1"+1+1; //1111
+
+concatenacao = 1+"1"+1+"1"; //1111
+
+concatenacao = "1"+1+1+1; //1111
+
+A exceção é caso os números somados estejam na forma de expressão, nesse caso mesmo após a leitura do texto os números seguintes serão somados.
+concatenacao = "1"+(1+1+1); //13
+
+(+) Operador unário de valor positivo – números são positivos sem esse operador explicitamente;
+(-) Operador unário de valor negativo – nega um número ou expressão aritmética;
+(++) Operador unário de incremento de valor – incrementa o valor em 1 unidade;
+(--) Operador unário de decremento de valor – decrementa o valor em 1 unidade;
+(!) Operador unário lógico de negação – nega o valor de uma expressão booleana.
+
+== Quando desejamos verificar se uma variável é IGUAL A outra.
+!= Quando desejamos verificar se uma variável é DIFERENTE da outra.
+> Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+>= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+< Quando desejamos verificar se uma variável é MENOR QUE outra.
+<= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+
+&& Operador Lógico "E"
+|| Operador Lógico "OU"

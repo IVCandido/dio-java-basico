@@ -19,6 +19,8 @@ public class TiposVariaveis {
 
         final double VALOR_DE_PI = 3.14;
 
+        System.out.println(VALOR_DE_PI);
+
         //sendo a variável final, não pode ser alterada
         //VALOR_DE_PI = 10.75;
 

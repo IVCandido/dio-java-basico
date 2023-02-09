@@ -1,0 +1,18 @@
+Palavras reservadas são identificadores que já possuem uma finalidade específica na linguagem, não podendo então ser utilizadas para nomear variáveis, classes, método ou atributos.
+Java possui palavras reservadas, as quais são normalmente identificadas com uma cor especial pela maioria das IDEs.
+
+As palavras reservadas em Java são:
+
+abstract        assert      boolean     break       byte
+case            catch       char        class       const
+continue        default     do          double      else
+extends         final       finally     float       for
+goto            if          implements  import      instanceof
+int             interface   long        native      new
+package         private     protected   public      return
+short           static      strictfp    super       switch
+synchronized    this        throw       throws      transient
+try             void        volatile    while
+
+Descrição de cada palavra no livro:
+https://glysns.gitbook.io/java-basico/sintaxe/palavras-reservadas
